@@ -1,0 +1,48 @@
+1. cd /c/Users/desktop/SI_2024_labl_223142 / /vleguvame vo folderot koj go kreirame
+2. git init vo SI_2024_lab1_223142 // se inicijalizira git vo lokalniot repozitorium
+3. git remote add origin link do repositorium
+4. nano README. md
+5. git add README. md
+6. git commit -m "Initial commit"
+7. git add *java
+8. git commit -m "Add starter code"
+11. git checkout bug1
+12. nano SILabl_1. java
+13. git add SILabl_ 1.java
+14. git commit -m "Fix wrong condition in filterOddLengthStrings"
+15. git checkout bug2
+16. nano SILabl_ 2.java
+17. git add SILab1_2.java
+18. git commit -m "Fix wrong condition in makeBigStringFrom"
+19. git checkout bugl
+20. nano SILablMain.java
+21. git add SILablMain. java
+22. git commit -m "Call method filterOddLengthStrings in main class"
+23. git checkout bug2
+24. nano SILablMain.java
+25. git add SILablMain. java
+26. git commit -m "Call method makeBigStringFrom in main class"
+27. git push -u origin master
+28. git push -u origin bugl
+29. git push -u origin bug2
+30. git checkout master
+31. git merge bugl // strategijata za spojuvanje e Fast-forward
+32. git push -u origin master
+33. git push -u origin bugl
+34. git push -u origin bug2
+35. git checkout bug2
+36. git rebase master // pri ovaa komanda se pojavuva konflikt
+37. nano SILablMain. java // konfliktot go razresiv taka sto gi izbrisav liniite od kodot kade ima くくく === i>>＞
+38. git add SILablMain. java
+39. git commit -m "Call method makeBigStringFrom in main class"
+40. git rebase --continue
+41. git checkout master
+42. git merge bug // strategijata za spojuvanje e Fast-forward
+43. git push origin master
+44. git push origin bugl
+45.git push --force origin bug2
+46. git add *.txt
+47. git commit -m "Final commit"
+48. git push -u origin master
+49. git push -u origin bugl
+50. git push -u origin bug2
